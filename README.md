@@ -9,10 +9,10 @@ It is an implementation of draft-shytyi-v6ops-danir-03.txt: https://tools.ietf.o
 Demo of this implementation: https://www.youtube.com/watch?v=DymVQY7bCUM
 The DEMO recorded the virtual machines output on the IoT Router, the Client device behind it, and the DHCPv6-PD server. 
 
-#Compiled with kernel:
+# Compiled with kernel:
 Linux ferby 4.19.4pachedkernel-v2 #7 SMP PREEMPT Fri Aug 23 04:58:09 CEST 2019 x86_64 GNU/Linux
 
-#Suggestions:
+# Suggestions:
 Do not forget to enable ipv6 forwarding on the IoT Router.
 
 # Requirements:
