@@ -1,10 +1,12 @@
 # KD6-DHCPv6-PD-DANIR
 Lite Kernel DHCPv6 Prefix Delegation &amp; Neighbour Discovery implementation
 
-
 # DEMO and IETF docs:
 It is an implementation of draft-shytyi-v6ops-danir-03.txt: https://tools.ietf.org/html/draft-shytyi-v6ops-danir-03
 Demo of this implementation: https://www.youtube.com/watch?v=DymVQY7bCUM
+
+#Compiled with kernel:
+Linux ferby 4.19.4pachedkernel-v2 #7 SMP PREEMPT Fri Aug 23 04:58:09 CEST 2019 x86_64 GNU/Linux
 
 # Requirements:
 Patched kernel. 
