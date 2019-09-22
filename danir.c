@@ -438,9 +438,8 @@ drop_unlock:
 
 drop:
 	/* Throw the packet out. */
-
 	// kfree_skb(skb);
-	return 0;
+	return NF_ACCEPT;
 }
 
 int GetMon (const char *str){
