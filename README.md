@@ -1,5 +1,9 @@
-# KD6-DHCPv6-PD-DANIR
-Lite Kernel DHCPv6 Prefix Delegation &amp; Neighbour Discovery implementation
+# NEW VERSION (v2) OF KD6-DHCPv6-PD-DANIRv2
+New version made from scratch is available in the next public github repo:
+[Link to the KD6-DHCPv6-PD-DANIRv2](https://github.com/dmytroshytyi/KD6-DHCPv6-PD-DANIRv2)
+
+# Current KD6-DHCPv6-PD-DANIR repository (Proof of the Concept)
+Lite Kernel DHCPv6 Prefix Delegation &amp; Neighbour Discovery implementation for Proof of the Concept.
 
 The kernel in the IoT Router issues a DHCPv6 PD request on its egress interface and obtains a /56. Further it splits multiple /64s out of it and sends RAs with /64 on the ingress interfaces. After clients receive the RA the default route is configured (link-local) address of IoT Requesting Router and /64 prefix is used to configure interface IP address.
 Finally this implementation doesn't include cellular part.
